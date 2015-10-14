@@ -1117,6 +1117,6 @@
     Matcher    : Matcher
   };
 })(
-  typeof window !== "undefined" ? window : {},
+  typeof window !== "undefined" ? window :  typeof self !== "undefined" ? self : {},
   typeof module !== "undefined" ? module : {}
 );
