@@ -1090,7 +1090,7 @@
   // an array of extracted values.
   function extract (/* pattern, ...args */) {
     var args = slice.call(arguments, 1);
-    var context = this === exports ? null : this;
+    var context = this === module.exports ? null : this;
     var patternFn = getOrCompile(arguments[0]);
     return patternFn.call(context, args, runtime) || null;
   }
