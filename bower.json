@@ -1,0 +1,21 @@
+{
+	"name": "matches.js",
+	"authors": [
+		"Nathan Faubion <nathan@n-son.com>",
+		"Darryl Morris <dwsmorris@hotmail.com>"
+	],
+	"description": "Powerful pattern matching for Javascript",
+	"keywords": [
+		"web-component",
+		"matching", "patterns", "pattern", "match", "functional"
+	],
+	"main": "matches.js.html",
+	"license": "MIT",
+	"ignore": [
+		"/.*",
+		"/test/",
+		"/benchmark/"
+	],
+	"dependencies": {
+	}
+}
