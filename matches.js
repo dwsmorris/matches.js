@@ -925,7 +925,7 @@
     var args2 = this.patternFn(args, runtime);
     if (args2) return this.successFn.apply(context, args2);
     else if (this.next) return this.next.match(args, context);
-    else throw new TypeError("All patterns exhausted");
+    else return undefined; // throw new TypeError("All patterns exhausted");
   };
   
   // Clones itself and the next item in the list.
